@@ -20,7 +20,7 @@ reboot this fixes the issue with desktop windows unable to move or close.
 
 You will notice your touchscreen isnt working properly. This is because Rogue enemy is emulating a ps5 touchbar. 
 
-# sudo nano /etc/ ROGueENEMY/config.cfg
+# sudo nano /etc/ROGueENEMY/config.cfg
 
 Change touchbar enabled from true to false (you can also change other things here to your liking)
 
