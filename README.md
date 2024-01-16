@@ -2,11 +2,11 @@
 Install instructions 
 
 Download and install ChimeraOS from their site.
-When its done gonto desktop and open a terminal.
+When its done go to desktop and open a terminal.
 
 #   sudo frzr-unlock 
 
-This will asknfor a password its always gamer
+This will ask for a password its always gamer
 
 #  sudo frzr-deploy rog-ally-gaming/chimeraos:unstable
 
@@ -14,11 +14,11 @@ Open a tyl window cntl+alt+f2 or f3
 
 #   sudo frzr-unlock
 #   sudo pacman -S kwin ( run this command 2 times)
-reboot this fixes the issue with desktop windows unavle to move or close.
+reboot this fixes the issue with desktop windows unable to move or close.
 
 
 
-You will notice your touchscreen is t working properly. This is because Rogue enemy is emulating a ps5 touchbar. 
+You will notice your touchscreen isnt working properly. This is because Rogue enemy is emulating a ps5 touchbar. 
 
 # sudo nano /etc/ ROGueENEMY/config.cfg
 
