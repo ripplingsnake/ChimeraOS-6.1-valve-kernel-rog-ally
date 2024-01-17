@@ -1,5 +1,6 @@
 # ChimeraOS-6.1-valve-kernel-rog-ally
 Install instructions 
+please note i am  not a tech help service to please dont bombard with wuestions on discord, i have made it as sinple as i can.
 
 Download and install ChimeraOS from their site.
 When its done go to desktop and software. search for konsole and install it.   
