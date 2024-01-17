@@ -19,7 +19,7 @@ Enter gamer ( this is always gamer )
 Open a tyl window cntl+alt+f2 or f3 
 
 #   sudo frzr-unlock
-#   sudo pacman -S kwin ( run this command 2 times )
+#   sudo pacman -S plasma-desktop
 
 Reboot
 
@@ -42,6 +42,23 @@ Green = Performance = 15-18watts
 Red = Turbo = 25-40watts 
 
 Asusctl is included please remember to set your desired fan curves. 
+If you want TDP control copy paste this....
+#  git clone https://github.com/FlyGoat/RyzenAdj.git
+cd RyzenAdj
+rm -r win32
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make
+if [ -d ~/.local/bin ]; then ln -s ryzenadj ~/.local/bin/ryzenadj && echo "symlinked to ~/.local/bin/ryzenadj"; fi
+if [ -d ~/.bin ]; then ln -s ryzenadj ~/.bin/ryzenadj && echo "symlinked to ~/.bin/ryzenadj"; fi
+
+Install the tdp manager of your choice i recommend this one....
+
+#  curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
+
+You will need Deckyloader installed before you install simple decky TDP 
+
+#   curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
 
 
 
