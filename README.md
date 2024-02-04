@@ -10,16 +10,14 @@ Download and install ChimeraOS from their site.
  Search for "konsole"  Now install it.   
 Open a konsole
 
-#   sudo frzr-unlock 
 
-Enter gamer ( this is always gamer )
 
 #  sudo frzr-deploy rog-ally-gaming/chimeraos:unstable
 
 Open a tyl window cntl+alt+f2 or f3 
 
 #   sudo frzr-unlock
-#   sudo pacman -S plasma-desktop
+#   sudo pacman -S plasma kwin
 
 Reboot
 
